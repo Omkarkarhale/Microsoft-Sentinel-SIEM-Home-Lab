@@ -23,7 +23,7 @@ This project demonstrates how to integrate **Microsoft Entra ID** with **Microso
 2. Navigate to **Content Hub**.
 3. Search for **Microsoft Entra ID**.
 4. Select the solution and click **Install**.
-
+<img src=1.png>
 ---
 
 ### Step 2: Configure Microsoft Entra ID Diagnostic Settings
@@ -38,7 +38,7 @@ This project demonstrates how to integrate **Microsoft Entra ID** with **Microso
 5. Under **Destination Details**, select **Send to Log Analytics Workspace**.
 6. Choose the Log Analytics Workspace associated with your Microsoft Sentinel instance.
 7. Click **Save** to enable log forwarding.
-
+<img src=2.png>
 ---
 
 ### Step 3: Verify Log Ingestion
@@ -51,7 +51,7 @@ This project demonstrates how to integrate **Microsoft Entra ID** with **Microso
 SigninLogs
 | where Identity == "Omkar Karhale"
 ```
-
+<img src=4.png>
 ---
 
 ## Expected Output
